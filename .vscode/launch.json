@@ -12,9 +12,9 @@
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build",
-      "program": "${workspaceFolder}/SS12Server/bin/Debug/net8.0/SS12Server.dll",
+      "program": "${workspaceFolder}/SS12Backend/bin/Debug/net8.0/SS12Backend.dll",
       "args": [],
-      "cwd": "${workspaceFolder}/SS12Server",
+      "cwd": "${workspaceFolder}/SS12Backend",
       "stopAtEntry": false,
       "console": "internalConsole"
     },
@@ -23,7 +23,7 @@
       "type": "node-terminal",
       "request": "launch",
       "command": "npm run dev",
-      "cwd": "${workspaceFolder}/SS12Client"
+      "cwd": "${workspaceFolder}/SS12Frontend"
     }
   ]
 }

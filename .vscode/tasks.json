@@ -4,7 +4,7 @@
 		{
 			"label": "Start Server and Client",
 			"type": "shell",
-			"command": "dotnet build /home/o9mansionboy/Documents/Space\\ station\\ 12/SS12Server/SS12Server.csproj && dotnet run --project /home/o9mansionboy/Documents/Space\\ station\\ 12/SS12Server/SS12Server.csproj & cd /home/o9mansionboy/Documents/Space\\ station\\ 12/SS12Client && npm run dev",
+			"command": "dotnet build /home/o9mansionboy/Documents/Space\\ station\\ 12/SS12Backend/SS12Backend.csproj && dotnet run --project /home/o9mansionboy/Documents/Space\\ station\\ 12/SS12Backend/SS12Backend.csproj & cd /home/o9mansionboy/Documents/Space\\ station\\ 12/SS12Client && npm run dev",
 			"isBackground": true,
 			"problemMatcher": [],
 			"group": "build"
@@ -13,7 +13,7 @@
 		{
 			"label": "build",
 			"type": "shell",
-			"command": "dotnet build SS12Server/SS12Server.csproj",
+			"command": "dotnet build SS12Backend/SS12Backend.csproj",
 			"group": "build",
 			"problemMatcher": "$msCompile"
 		}

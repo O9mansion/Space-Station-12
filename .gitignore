@@ -34,11 +34,11 @@ yarn.lock
 *.exe
 *.pdb
 *.cache
-SS12Server/bin/
-SS12Server/obj/
-SS12Server/Debug/
-SS12Server/Release/
-SS12Server/Log/
+SS12Backend/bin/
+SS12Backend/obj/
+SS12Backend/Debug/
+SS12Backend/Release/
+SS12Backend/Log/
 
 # Rider / Visual Studio
 .vs/
