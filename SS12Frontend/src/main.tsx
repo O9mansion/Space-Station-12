@@ -6,3 +6,4 @@ import "./style.css";
 const root = ReactDOM.createRoot(document.getElementById("root")!);
 
 root.render(<Login onSubmitName={(name: string) => console.log(name)} />);
+

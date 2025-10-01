@@ -9,7 +9,11 @@ const Login: React.FC<LoginProps> = ({ onSubmitName }) => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    onSubmitName(name);
+    const trimmedName = name.trim();
+    if (!trimmedName) {
+      return; // or show an error message
+    }
+    onSubmitName(trimmedName);
   };
 
   return (
