@@ -1,0 +1,11 @@
+/home/o9mansionboy/Documents/Space Station 12/Content.Server/obj/Debug/net8.0/Content.Server.GeneratedMSBuildEditorConfig.editorconfig
+/home/o9mansionboy/Documents/Space Station 12/Content.Server/obj/Debug/net8.0/Content.Server.AssemblyInfoInputs.cache
+/home/o9mansionboy/Documents/Space Station 12/Content.Server/obj/Debug/net8.0/Content.Server.AssemblyInfo.cs
+/home/o9mansionboy/Documents/Space Station 12/Content.Server/obj/Debug/net8.0/Content.Server.csproj.CoreCompileInputs.cache
+/home/o9mansionboy/Documents/Space Station 12/Content.Server/bin/Debug/net8.0/Content.Server.deps.json
+/home/o9mansionboy/Documents/Space Station 12/Content.Server/bin/Debug/net8.0/Content.Server.dll
+/home/o9mansionboy/Documents/Space Station 12/Content.Server/bin/Debug/net8.0/Content.Server.pdb
+/home/o9mansionboy/Documents/Space Station 12/Content.Server/obj/Debug/net8.0/Content.Server.dll
+/home/o9mansionboy/Documents/Space Station 12/Content.Server/obj/Debug/net8.0/refint/Content.Server.dll
+/home/o9mansionboy/Documents/Space Station 12/Content.Server/obj/Debug/net8.0/Content.Server.pdb
+/home/o9mansionboy/Documents/Space Station 12/Content.Server/obj/Debug/net8.0/ref/Content.Server.dll

@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "compounds": [
+    {
+      "name": "Launch Server and Client",
+      "configurations": [".NET Server", "Vite Client"]
+    }
+  ],
+  "configurations": [
+    {
+      "name": ".NET Server",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/SS12Server/bin/Debug/net8.0/SS12Server.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/SS12Server",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "Vite Client",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run dev",
+      "cwd": "${workspaceFolder}/SS12Client"
+    }
+  ]
+}

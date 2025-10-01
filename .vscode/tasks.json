@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Server and Client",
+			"type": "shell",
+			"command": "dotnet build /home/o9mansionboy/Documents/Space\\ station\\ 12/SS12Server/SS12Server.csproj && dotnet run --project /home/o9mansionboy/Documents/Space\\ station\\ 12/SS12Server/SS12Server.csproj & cd /home/o9mansionboy/Documents/Space\\ station\\ 12/SS12Client && npm run dev",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+		,
+		{
+			"label": "build",
+			"type": "shell",
+			"command": "dotnet build SS12Server/SS12Server.csproj",
+			"group": "build",
+			"problemMatcher": "$msCompile"
+		}
+	]
+}

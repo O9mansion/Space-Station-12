@@ -1,0 +1,72 @@
+# --- Node / TypeScript ---
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# --- C# / .NET ---
+**/[Bb]in/
+**/[Oo]bj/
+**/[Dd]ebug/
+**/[Rr]elease/
+**/[Ll]og/
+*.dll
+*.exe
+*.pdb
+*.cache
+SS12Server/bin/
+SS12Server/obj/
+SS12Server/Debug/
+SS12Server/Release/
+SS12Server/Log/
+
+# Rider / Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# --- Node / TypeScript ---
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Env & logs
+.env
+.env.*.local
+*.log
+
+# Other .NET stuff
+*.dll
+*.exe
+*.pdb
+*.cache
+*.dbmdl
+*.bak
+*.Backup
